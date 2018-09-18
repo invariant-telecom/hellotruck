@@ -8,7 +8,7 @@ a:focus {
 }
 
 img {
-  max-width: 100%;
+  max-width: 108%;
   height: auto;
 }
 
@@ -188,7 +188,7 @@ ul {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
   background: none;
-  color: #33;
+  color: #333;
 }
 
 .navbar-default .navbar-nav>li>a:hover,
@@ -250,84 +250,50 @@ ul {
   margin-top: 5px;
 }
 
-.contact-form textarea {
-  background: rgba(0, 0, 0, 0);
-  border: 1px solid #ccc;
-  border-radius: 0;
-  color: 44;
-  height: 140px;
-  padding: 20px;
-  width: 100%;
-}
-
-.contact-form button[type="submit"] {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #ccc;
-  color: #444;
-  font-size: 16px;
-  font-weight: 700;
-  margin-top: 8px;
-  padding: 12px 30px;
-  text-transform: uppercase;
-  transition: all 0.3s ease 0s;
-  border-radius: 30px;
-}
-
 .contact-form #sendmessage {
   color: rgb(10, 10, 10);
-  border: 1px solid rgb(47, 49, 49);
+  border: 1px solid rgb(11, 235, 235);
   display: none;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   font-weight: 600;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
-
-#contact .form .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.validation {
-  color: rgb(20, 20, 20);
-  display: none;
-  margin: 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-
 .map-bg {
-  /* The image used */
-  background-image: url("Map.Jpg");
-
-  min-height: 380px;
-
-  /* Center and scale the image nicely */
-  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("../img/Map.jpg");
+  min-height: 500px;
+  margin: 0 auto;
+  width: 100%;
+  background-position: auto;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
 .map-container {
-  position: absolute;
-  right: 0;
-  margin: 20px;
-  max-width: 300px;
-  padding: 16px;
-  background-color: white;
+  margin-top: 80px;
 }
 
 .footer {
-
   left: 0;
-  bottom: 0;
+  bottom: 2;
   width: 100%;
+  height: auto;
   background-color: Black;
   color: white;
+  padding: 20px;
   text-align: center;
 }
 
+.contact-form {
+  width: 85%;
+  max-width: 700px;
+  background: #f1f1f1;
+  top: 80%;
+  bottom: 80%;
+  left: 50%;
+  padding: 30px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 2px black;
+
+}
